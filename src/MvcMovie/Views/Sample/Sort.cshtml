@@ -1,0 +1,11 @@
+@model MvcMovie.Models.SamplePostParameterViewModel
+
+@{
+    ViewData["Title"] = "Sample";
+}
+
+@foreach (var items in Model.Numbers) {
+    <div>
+        @Html.DisplayFor(x => items)
+    </div>
+}

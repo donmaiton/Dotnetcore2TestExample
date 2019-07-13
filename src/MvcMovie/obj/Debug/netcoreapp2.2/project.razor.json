@@ -2953,6 +2953,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Sample\\Sort.cshtml",
+      "TargetPath": "Views\\Sample\\Sort.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -2975,6 +2980,11 @@
     {
       "FilePath": "Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views\\Sample\\Exist.cshtml",
+      "TargetPath": "Views\\Sample\\Exist.cshtml",
       "FileKind": "mvc"
     },
     {

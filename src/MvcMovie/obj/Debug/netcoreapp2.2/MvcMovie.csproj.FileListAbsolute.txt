@@ -28,3 +28,5 @@ c:\git\Dotnetcore2TestExample\src\MvcMovie\obj\Debug\netcoreapp2.2\MvcMovie.View
 c:\git\Dotnetcore2TestExample\src\MvcMovie\obj\Debug\netcoreapp2.2\MvcMovie.dll
 c:\git\Dotnetcore2TestExample\src\MvcMovie\obj\Debug\netcoreapp2.2\MvcMovie.pdb
 C:\git\Dotnetcore2TestExample\src\MvcMovie\obj\Debug\netcoreapp2.2\MvcMovie.csproj.CopyComplete
+c:\git\Dotnetcore2TestExample\src\MvcMovie\obj\Debug\netcoreapp2.2\Razor\Views\Sample\Sort.g.cshtml.cs
+C:\git\Dotnetcore2TestExample\src\MvcMovie\obj\Debug\netcoreapp2.2\Razor\Views\Sample\Exist.g.cshtml.cs

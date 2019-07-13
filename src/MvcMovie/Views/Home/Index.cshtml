@@ -1,4 +1,5 @@
-﻿@{
+﻿@model MvcMovie.Models.SamplePostParameterViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -6,3 +7,38 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<form method="POST">
+    <div>
+        <input asp-for="Numbers" value="1"/><br/>
+        <input asp-for="Numbers" value="3"/><br/>
+        <input asp-for="Numbers" value="4"/><br/>
+        <input asp-for="Numbers" value="2"/><br/>
+        <input asp-for="Numbers" value="1"/><br/>
+        <input asp-for="Numbers" value="3"/><br/>
+        <input asp-for="Numbers" value="10"/><br/>
+        <input asp-for="Numbers" value="9"/><br/>
+    </div>
+    <input type="submit" value="ソート(昇順)" asp-controller="Sample" asp-action="Sort"/>
+    <input type="submit" value="ソート(降順)" asp-controller="Sample" asp-action="SortDescending" />
+</form>
+
+<br/>
+<form method="POST">
+    <div>
+        リスト<br/>
+        <input asp-for="Numbers" value="1"/><br/>
+        <input asp-for="Numbers" value="3"/><br/>
+        <input asp-for="Numbers" value="4"/><br/>
+        <input asp-for="Numbers" value="2"/><br/>
+        <input asp-for="Numbers" value="1"/><br/>
+        <input asp-for="Numbers" value="3"/><br/>
+        <input asp-for="Numbers" value="10"/><br/>
+        <input asp-for="Numbers" value="9"/><br/>
+    </div>
+    <div>
+        検索値<br/>
+        <input asp-for="Number" value="5"/>
+    </div>
+    <input type="submit" value="検索" asp-controller="Sample" asp-action="Exist" />
+</form>
