@@ -42,6 +42,7 @@ namespace MvcMovie.Models
 
         public static bool Exist(SamplePostParameterViewModel parameter)
         {
+            // TODO: 処理がないのでテストコードが通るように処理を書きましょう
             return true;
         }
 
